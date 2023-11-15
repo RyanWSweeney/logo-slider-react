@@ -1,5 +1,5 @@
 import "./styles.css";
-import React, { useEffect, useRef } from "react";
+import React, {useRef } from "react";
 import {
   motion,
   useScroll,
@@ -8,9 +8,7 @@ import {
   useMotionValue,
   useVelocity,
   useAnimationFrame,
-  color
 } from "framer-motion";
-import { animate, spring } from "motion";
 import { wrap } from "@motionone/utils";
 
 import { ReactComponent as MongoDBLogo } from "./Logos/MongoDB_White.svg";
